@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pc.oncreate.MainActivity">
+    <item
+        android:id="@+id/userdetails"
+        android:orderInCategory="100"
+        android:title="User Details"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/aboutus"
+        android:orderInCategory="100"
+        android:title="About Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="Log Out"
+        app:showAsAction="never" />
+</menu>
